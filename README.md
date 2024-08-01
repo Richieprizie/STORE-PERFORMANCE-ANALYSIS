@@ -20,12 +20,16 @@ The dataset used for this analysis includes the following columns:
 - `transaction_qty`: Quantity of items purchased in the transaction.
 - `store_id`: Unique identifier for each store.
 - `store_location`: Location of the store.
-- `product_id`: Unique identifier for each product.
+- `product_id`: Unique id
+entifier for each product.
 - `unit_price`: Price per unit of the product.
 - `product_category`: Category of the product.
 - `product_type`: Type of the product.
 - `product_detail`: Detailed description of the product.
 - `Total sales`: Calculated by multiplying `transaction_qty` by `unit_price`.
+
+- <img width="937" alt="Annotation 2024-08-01 155814" src="https://github.com/user-attachments/assets/d88262cb-36ec-43a9-b476-eec26c09cdc5">
+
 
 ## <a name="data-collection"></a>Data Collection
 - Gather transaction data for each store location from January 2023 to June 2023.
@@ -36,6 +40,9 @@ The data cleaning process involved the following steps:
 - A check for duplicates was performed, and none were found.
 - The dataset contains 12 columns and 149,117 rows.
 - A calculation was performed to add the `Total sales` column by multiplying the `unit_price` by `transaction_qty`.
+
+- <img width="790" alt="Annotation 2024-08-01 160352" src="https://github.com/user-attachments/assets/ee68489e-bc09-4eb2-bd2a-aad490ec5c39">
+
 - The cleaned data was then loaded into Power BI to create the dashboard.
 
 ## <a name="data-analysis"></a>Data Analysis
@@ -56,6 +63,9 @@ The dashboard includes the following visualizations:
 - **Total Sales by Month**: Line chart illustrating the monthly sales trend from January to June.
 - **Total Sales of Store Location by Month**: Stacked bar chart comparing monthly sales for each store location.
 - **Sales by Product Category**: Treemap showing sales distribution across different product categories like Coffee, Tea, Bakery, etc.
+
+- 
+<img width="739" alt="Annotation 2024-08-01 145915" src="https://github.com/user-attachments/assets/9fb4977d-d42d-416c-b2c7-566a3e306b4d">
 
 ## <a name="insights-and-recommendations"></a>Insights and Recommendations
 Based on the analysis, the following recommendations are suggested to improve store performance:
