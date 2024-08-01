@@ -7,7 +7,7 @@
 3. [Data Analysis](#data-analysis)
 4. [Dashboard Creation](#dashboard-creation)
 5. [Insights and Recommendations](#insights-and-recommendations)
-6. [Documentation](#documentation)
+6. [Conclusion](#conclusion)
 
 ## 1. Introduction
 The purpose of this project is to provide a comprehensive analysis of the performance of multiple store locations for a coffee shop chain. The analysis covers the period from January 2023 to June 2023. The project aims to help stakeholders understand sales performance, identify trends, and make informed decisions to improve store operations.
